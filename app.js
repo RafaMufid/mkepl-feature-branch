@@ -45,11 +45,3 @@ function renderTasks() {
     });
     summary.textContent = `${filteredTasks.length} tugas ditampilkan (${currentFilter})`;
 }
-
-function autoSortTasks() {
-    tasks.sort((a, b) => {
-        if (a.done === b.done) return 0; // Jika status sama, tidak perlu diubah
-        return a.done ? 1 : -1; // Tugas yang belum selesai (done: false) akan berada di atas
-    });
-    renderTasks();
-}
