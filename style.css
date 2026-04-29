@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f8fa;
+    color: #18212f;
+}
+
+.container {
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+}
+
+h1 {
+    color: #d71920;
+    margin-bottom: 4px;
+}
+
+.subtitle {
+    color: #5a6472;
+}
+
+.task-form {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+li {
+    margin: 8px 0;
+}
